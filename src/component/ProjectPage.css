@@ -1,0 +1,35 @@
+#project_image1 {
+  background-image: url("../images/helloquence-61189-unsplash.jpg") !important;
+  background-size: cover;
+  height: 230px;
+  width: auto;
+}
+
+#project_image2 {
+  background-image: url("../images/quickorder-301139-unsplash.jpg") !important;
+  background-size: cover;
+  height: 230px;
+  width: auto;
+}
+
+#project_image3 {
+  background-image: url("../images/cytonn-photography-604681-unsplash.jpg") !important;
+  background-size: cover;
+  height: 230px;
+  width: auto;
+}
+
+#project_image_gradient {
+  background: #000000; /* fallback for old browsers */
+  opacity: 0.65;
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

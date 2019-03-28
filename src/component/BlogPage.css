@@ -1,0 +1,10 @@
+#blogphoto {
+  background-image: url("../images/photo-1515165359388-5309c518b140.jpeg") !important;
+  background-size: cover;
+  height: 80vh;
+  width: auto;
+}
+
+#blog_background {
+  background-color: #e6e6e6; /* fallback for old browsers */
+}
