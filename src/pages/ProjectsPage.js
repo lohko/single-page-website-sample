@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBCardBody, MDBView, MDBMask } from "mdbreact";
-import "./ProjectPage.css";
+import "../styles/ProjectPage.css";
 
 const ProjectsPage = () => {
   return (

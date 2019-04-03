@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import LandingPage from "./component/LandingPage";
-import NavigationBarPage from "./component/NavigationBarPage";
-import ProjectsPage from "./component/ProjectsPage";
-import PeoplePage from "./component/PeoplePage";
-import BlogPage from "./component/BlogPage";
-import FooterPage from "./component/FooterPage";
-import ContactPage from "./component/ContactPage";
-//import { BrowserRouter } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
+import NavigationBarPage from "./pages/components/NavigationBarPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import PeoplePage from "./pages/PeoplePage";
+import BlogPage from "./pages/BlogPage";
+import FooterPage from "./pages/FooterPage";
+import ContactPage from "./pages/ContactPage";
 
 class App extends Component {
   render() {

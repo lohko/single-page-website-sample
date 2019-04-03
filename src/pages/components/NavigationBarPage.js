@@ -11,7 +11,7 @@ import {
   MDBIcon,
   MDBContainer
 } from "mdbreact";
-import "./NavigationBarPage.css";
+import "../../styles/NavigationBarPage.css";
 
 class NavigationBarPage extends Component {
   state = {

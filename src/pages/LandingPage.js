@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./LandingPage.css";
+import "../styles/LandingPage.css";
 import { MDBMask, MDBRow, MDBCol, MDBView, MDBContainer } from "mdbreact";
 
 class LandingPage extends Component {

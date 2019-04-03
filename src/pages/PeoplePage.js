@@ -7,7 +7,7 @@ import {
   MDBIcon,
   MDBBtn
 } from "mdbreact";
-import "./PeoplePage.css";
+import "../styles/PeoplePage.css";
 
 class PeoplePage extends Component {
   render() {
