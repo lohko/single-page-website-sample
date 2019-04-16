@@ -8,7 +8,7 @@ import {
   MDBMask,
   MDBView
 } from "mdbreact";
-import "./BlogPage.css";
+import "../styles/BlogPage.css";
 
 const BlogPage = () => {
   return (
@@ -28,7 +28,6 @@ const BlogPage = () => {
                   <MDBRow>
                     <MDBCol md="3" />
                     <MDBCol md="6">
-                      {" "}
                       <p>
                         Nam libero tempore, cum soluta nobis est eligendi optio
                         cumque nihil impedit quo minus id quod maxime placeat

@@ -1,9 +1,9 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBIcon, MDBBtn } from "mdbreact";
+import { MDBRow, MDBCol, MDBIcon, MDBBtn, MDBContainer } from "mdbreact";
 
 const ContactPage = () => {
   return (
-    <section className="my-5">
+    <MDBContainer className="my-5">
       <h2 className="h1-responsive font-weight-bold text-center my-5">
         Contact
       </h2>
@@ -56,7 +56,7 @@ const ContactPage = () => {
           </MDBRow>
         </MDBCol>
       </MDBRow>
-    </section>
+    </MDBContainer>
   );
 };
 
