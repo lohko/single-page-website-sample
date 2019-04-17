@@ -12,6 +12,7 @@ import {
   MDBContainer
 } from "mdbreact";
 import "../../styles/NavigationBarPage.css";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class NavigationBarPage extends Component {
   state = {
@@ -50,19 +51,52 @@ class NavigationBarPage extends Component {
               >
                 <MDBNavbarNav left>
                   <MDBNavItem>
-                    <MDBNavLink to="#!">Home</MDBNavLink>
+                    <Link
+                        style={{color:"white"}}
+                        activeClass="active"
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        duration={2000}
+                    >Home</Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#!">About Us</MDBNavLink>
+                    <Link
+                        style={{color:"white"}}
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        duration={2000}
+                    >About us</Link>                  </MDBNavItem>
+                  <MDBNavItem>
+                    <Link
+                        style={{color:"white"}}
+                        activeClass="active"
+                        to="services"
+                        spy={true}
+                        smooth={true}
+                        duration={2000}
+                    >Services</Link>                  </MDBNavItem>
+                  <MDBNavItem>
+                    <Link
+                        style={{color:"white"}}
+                        activeClass="active"
+                        to="people"
+                        spy={true}
+                        smooth={true}
+                        duration={2000}
+                    >People</Link>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#!">Services</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#!">People</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#!">Contact</MDBNavLink>
+                    <Link
+                        style={{color:"white"}}
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        duration={2000}
+                    >Contact</Link>
                   </MDBNavItem>
                 </MDBNavbarNav>
                 <MDBNavbarNav right>

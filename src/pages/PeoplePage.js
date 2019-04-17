@@ -12,14 +12,12 @@ import "../styles/PeoplePage.css";
 class PeoplePage extends Component {
   render() {
     return (
-      <div>
+      <div id="people">
         <MDBCard className="my-5 px-1 pb-5 text-center">
           <MDBCardBody>
             <h2 className="h1-responsive font-weight-bold my-5">Your team</h2>
             <p className="grey-text w-responsive mx-auto mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-              error amet numquam iure provident voluptate esse quasi, veritatis
-              totam voluptas nostrum quisquam eum porro a pariatur veniam.
+              Present your awesome team here!
             </p>
             <MDBRow>
               <MDBCol md="4" className="mb-md-0 mb-5">
@@ -30,9 +28,9 @@ class PeoplePage extends Component {
                 />
 
                 <h4 className="font-weight-bold dark-grey-text my-4">
-                  Maria Kate
+                  Example employee
                 </h4>
-                <h6 className="text-uppercase grey-text mb-3">Photographer</h6>
+                <h6 className="text-uppercase grey-text mb-3">Position</h6>
                 <MDBBtn
                   tag="a"
                   floating
@@ -62,9 +60,9 @@ class PeoplePage extends Component {
                 />
 
                 <h4 className="font-weight-bold dark-grey-text my-4">
-                  Sarah Melyah
+                  Example employee
                 </h4>
-                <h6 className="text-uppercase grey-text mb-3">Web Developer</h6>
+                <h6 className="text-uppercase grey-text mb-3">Position</h6>
                 <MDBBtn
                   tag="a"
                   floating
@@ -94,9 +92,9 @@ class PeoplePage extends Component {
                 />
 
                 <h4 className="font-weight-bold dark-grey-text my-4">
-                  Sarah Melyah
+                  Example employee
                 </h4>
-                <h6 className="text-uppercase grey-text mb-3">Web Developer</h6>
+                <h6 className="text-uppercase grey-text mb-3">Position</h6>
                 <MDBBtn
                   tag="a"
                   floating

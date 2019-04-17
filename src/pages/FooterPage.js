@@ -16,21 +16,20 @@ const FooterPage = () => {
               Company name
             </h6>
             <p>
-              Here you can use rows and columns here to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Add extra info of your company here
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="2" lg="2" xl="2" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
             <p>
-              <a href="#!">MDBootstrap</a>
+              <a href="#!">Product 1</a>
             </p>
             <p>
-              <a href="#!">MDWordPress</a>
+              <a href="#!">Product 2</a>
             </p>
             <p>
-              <a href="#!">BrandFlow</a>
+              <a href="#!">Product 3</a>
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
@@ -39,10 +38,10 @@ const FooterPage = () => {
               Useful links
             </h6>
             <p>
-              <a href="#!">Your Account</a>
+              <a href="#!">Social media</a>
             </p>
             <p>
-              <a href="#!">Shipping Rates</a>
+              <a href="#!">Services</a>
             </p>
             <p>
               <a href="#!">Help</a>
@@ -52,7 +51,7 @@ const FooterPage = () => {
           <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
             <p>
-              <i className="fa fa-home mr-3" /> New York, NY 10012, US
+              <i className="fa fa-home mr-3" /> Turku, 10012, FI
             </p>
             <p>
               <i className="fa fa-envelope mr-3" /> info@gmail.com

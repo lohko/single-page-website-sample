@@ -3,7 +3,7 @@ import { MDBRow, MDBCol, MDBIcon, MDBBtn, MDBContainer } from "mdbreact";
 
 const ContactPage = () => {
   return (
-    <MDBContainer className="my-5">
+    <MDBContainer id="contact" className="my-5">
       <h2 className="h1-responsive font-weight-bold text-center my-5">
         Contact
       </h2>
@@ -36,22 +36,21 @@ const ContactPage = () => {
               <MDBBtn tag="a" floating color="black" className="accent-1">
                 <MDBIcon icon="map-marker-alt" />
               </MDBBtn>
-              <p>Eerikinkatu 25</p>
               <p className="mb-md-0">20100, Turku</p>
             </MDBCol>
             <MDBCol md="4">
               <MDBBtn tag="a" floating color="black" className="accent-1">
                 <MDBIcon icon="phone" />
               </MDBBtn>
-              <p>+358 44 273 5969</p>
+              <p>+123 456 789</p>
               <p className="mb-md-0">Mon - Fri, 8:00-18:00</p>
             </MDBCol>
             <MDBCol md="4">
               <MDBBtn tag="a" floating color="black" className="accent-1">
                 <MDBIcon icon="envelope" />
               </MDBBtn>
-              <p>info@lohkosoftware.fi</p>
-              <p className="mb-md-0">esko-matti@lohkosoftware.fi</p>
+              <p>info@company.fi</p>
+              <p className="mb-md-0">info@company.fi</p>
             </MDBCol>
           </MDBRow>
         </MDBCol>
