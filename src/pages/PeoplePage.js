@@ -13,11 +13,11 @@ class PeoplePage extends Component {
   render() {
     return (
       <div id="people">
-        <MDBCard className="my-5 px-1 pb-5 text-center">
+        <MDBCard className="my-5 px-1 pb-5 text-center" style={{boxShadow:"none"}}>
           <MDBCardBody>
-            <h2 className="h1-responsive font-weight-bold my-5">Your team</h2>
+            <h2 className="h1-responsive font-weight-bold my-5">Yrityksesi työntekijät</h2>
             <p className="grey-text w-responsive mx-auto mb-5">
-              Present your awesome team here!
+              Haluatko esitellä yrityksesi työntekijät sivuillasi? Ehkäpä jotain tällaista
             </p>
             <MDBRow>
               <MDBCol md="4" className="mb-md-0 mb-5">
@@ -28,9 +28,9 @@ class PeoplePage extends Component {
                 />
 
                 <h4 className="font-weight-bold dark-grey-text my-4">
-                  Example employee
+                  Nimi Sukunimi
                 </h4>
-                <h6 className="text-uppercase grey-text mb-3">Position</h6>
+                <h6 className="text-uppercase grey-text mb-3">Tehtävänimike</h6>
                 <MDBBtn
                   tag="a"
                   floating
@@ -60,9 +60,9 @@ class PeoplePage extends Component {
                 />
 
                 <h4 className="font-weight-bold dark-grey-text my-4">
-                  Example employee
+                  Nimi Sukunimi
                 </h4>
-                <h6 className="text-uppercase grey-text mb-3">Position</h6>
+                <h6 className="text-uppercase grey-text mb-3">Tehtävänimike</h6>
                 <MDBBtn
                   tag="a"
                   floating
@@ -92,9 +92,9 @@ class PeoplePage extends Component {
                 />
 
                 <h4 className="font-weight-bold dark-grey-text my-4">
-                  Example employee
+                  Nimi Sukunimi
                 </h4>
-                <h6 className="text-uppercase grey-text mb-3">Position</h6>
+                <h6 className="text-uppercase grey-text mb-3">Tehtävänimike</h6>
                 <MDBBtn
                   tag="a"
                   floating

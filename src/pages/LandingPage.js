@@ -15,12 +15,11 @@ class LandingPage extends Component {
               <MDBRow>
                 <MDBCol md="12" className="mb-4 white-text text-center">
                   <h3 className="display-3 font-weight-bold mb-0 pt-md-5">
-                    Single Page Template
+                    Single Page
                   </h3>
                   <hr className="hr-light my-4 w-75" />
                   <h4 className="subtext-header mt-2 mb-4">
-                    Keep in mind that this is an empty canvas. We´ll craft it
-                    just like You want it.
+                    Yksinkertaisuus on kaunista. Tästä sivupohjasta valmistamme näyttävän scrollattavan sivun.
                   </h4>
                 </MDBCol>
               </MDBRow>

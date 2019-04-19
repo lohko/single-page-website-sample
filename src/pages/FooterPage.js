@@ -13,38 +13,38 @@ const FooterPage = () => {
         <MDBRow className="text-center text-md-left mt-3 pb-3">
           <MDBCol md="3" lg="3" xl="3" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">
-              Company name
+              Yritys
             </h6>
             <p>
-              Add extra info of your company here
+              Lisätietoa yrityksestä
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="2" lg="2" xl="2" className="mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <h6 className="text-uppercase mb-4 font-weight-bold">Palvelut</h6>
             <p>
-              <a href="#!">Product 1</a>
+              <a href="#!">Palvelu</a>
             </p>
             <p>
-              <a href="#!">Product 2</a>
+              <a href="#!">Palvelu</a>
             </p>
             <p>
-              <a href="#!">Product 3</a>
+              <a href="#!">Palvelu</a>
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="3" lg="2" xl="2" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">
-              Useful links
+              Info
             </h6>
             <p>
-              <a href="#!">Social media</a>
+              <a href="#!">Käyttöehdot</a>
             </p>
             <p>
-              <a href="#!">Services</a>
+              <a href="#!">Tuotteet</a>
             </p>
             <p>
-              <a href="#!">Help</a>
+              <a href="#!">Apua</a>
             </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />

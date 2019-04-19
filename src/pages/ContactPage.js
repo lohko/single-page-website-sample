@@ -5,14 +5,11 @@ const ContactPage = () => {
   return (
     <MDBContainer id="contact" className="my-5">
       <h2 className="h1-responsive font-weight-bold text-center my-5">
-        Contact
+        Yhteystiedot
       </h2>
       <p className="text-center w-responsive mx-auto pb-3">
-        Keep in mind that for a little extra cost You can get a Contact form
-        plugin that will send Your client's message straight to your email.
-      </p>
-      <p className="font-italic text-center w-responsive mx-auto pb-3">
-        Easy and simple. Right?
+        Voimme myös lisätä sivuillesi yhteystietolomakkeen jonka avulla sivujesi käyttäjät voivat lähettää sinulle viestin
+        suoraan sähköpostiisi!
       </p>
       <MDBRow>
         <MDBCol>
@@ -50,7 +47,6 @@ const ContactPage = () => {
                 <MDBIcon icon="envelope" />
               </MDBBtn>
               <p>info@company.fi</p>
-              <p className="mb-md-0">info@company.fi</p>
             </MDBCol>
           </MDBRow>
         </MDBCol>

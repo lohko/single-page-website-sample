@@ -52,51 +52,51 @@ class NavigationBarPage extends Component {
                 <MDBNavbarNav left>
                   <MDBNavItem>
                     <Link
-                        style={{color:"white"}}
+                        style={{color:"white", paddingRight:"12px"}}
                         activeClass="active"
                         to="home"
                         spy={true}
                         smooth={true}
                         duration={2000}
-                    >Home</Link>
+                    >Yritys</Link>
                   </MDBNavItem>
                   <MDBNavItem>
                     <Link
-                        style={{color:"white"}}
+                        style={{color:"white", paddingRight:"12px"}}
                         activeClass="active"
                         to="about"
                         spy={true}
                         smooth={true}
                         duration={2000}
-                    >About us</Link>                  </MDBNavItem>
+                    >Meistä</Link>                  </MDBNavItem>
                   <MDBNavItem>
                     <Link
-                        style={{color:"white"}}
+                        style={{color:"white", paddingRight:"12px"}}
                         activeClass="active"
                         to="services"
                         spy={true}
                         smooth={true}
                         duration={2000}
-                    >Services</Link>                  </MDBNavItem>
+                    >Palvelut</Link>                  </MDBNavItem>
                   <MDBNavItem>
                     <Link
-                        style={{color:"white"}}
+                        style={{color:"white", paddingRight:"12px"}}
                         activeClass="active"
                         to="people"
                         spy={true}
                         smooth={true}
                         duration={2000}
-                    >People</Link>
+                    >Työntekijät</Link>
                   </MDBNavItem>
                   <MDBNavItem>
                     <Link
-                        style={{color:"white"}}
+                        style={{color:"white", paddingRight:"12px"}}
                         activeClass="active"
                         to="contact"
                         spy={true}
                         smooth={true}
                         duration={2000}
-                    >Contact</Link>
+                    >Yhteystiedot</Link>
                   </MDBNavItem>
                 </MDBNavbarNav>
                 <MDBNavbarNav right>
