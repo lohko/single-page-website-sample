@@ -12,7 +12,7 @@ import {
   MDBContainer
 } from "mdbreact";
 import "../../styles/NavigationBarPage.css";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 class NavigationBarPage extends Component {
   state = {

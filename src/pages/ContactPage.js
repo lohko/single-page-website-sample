@@ -3,8 +3,8 @@ import { MDBRow, MDBCol, MDBIcon, MDBBtn, MDBContainer } from "mdbreact";
 
 const ContactPage = () => {
   return (
-    <MDBContainer id="contact" className="my-5">
-      <h2 className="h1-responsive font-weight-bold text-center my-5">
+    <MDBContainer id="contact">
+      <h2 className="h1-responsive font-weight-bold text-center">
         Yhteystiedot
       </h2>
       <p className="text-center w-responsive mx-auto pb-3">

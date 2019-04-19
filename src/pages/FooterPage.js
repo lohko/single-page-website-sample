@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import "../styles/FooterPage.css";
+import { Link} from "react-scroll";
 
 const FooterPage = () => {
   return (
@@ -23,14 +24,32 @@ const FooterPage = () => {
           <MDBCol md="2" lg="2" xl="2" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Palvelut</h6>
             <p>
-              <a href="#!">Palvelu</a>
-            </p>
+              <Link
+                  style={{color:"white", paddingRight:"12px"}}
+                  activeClass="active"
+                  to="services"
+                  spy={true}
+                  smooth={true}
+                  duration={2000}
+              >Palvelu</Link>            </p>
             <p>
-              <a href="#!">Palvelu</a>
-            </p>
+              <Link
+                  style={{color:"white", paddingRight:"12px"}}
+                  activeClass="active"
+                  to="services"
+                  spy={true}
+                  smooth={true}
+                  duration={2000}
+              >Palvelu</Link>            </p>
             <p>
-              <a href="#!">Palvelu</a>
-            </p>
+              <Link
+                  style={{color:"white", paddingRight:"12px"}}
+                  activeClass="active"
+                  to="services"
+                  spy={true}
+                  smooth={true}
+                  duration={2000}
+              >Palvelu</Link>            </p>
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="3" lg="2" xl="2" className="mx-auto mt-3">
@@ -49,7 +68,7 @@ const FooterPage = () => {
           </MDBCol>
           <hr className="w-100 clearfix d-md-none" />
           <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <h6 className="text-uppercase mb-4 font-weight-bold">Yhteystiedot</h6>
             <p>
               <i className="fa fa-home mr-3" /> Turku, 10012, FI
             </p>

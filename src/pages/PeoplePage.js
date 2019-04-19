@@ -84,7 +84,7 @@ class PeoplePage extends Component {
                 </MDBBtn>
               </MDBCol>
 
-              <MDBCol md="4" className="mb-md-0 mb-5">
+              <MDBCol md="4" className="mb-md-0">
                 <img
                   src="https://images.unsplash.com/photo-1459245330819-1b6d75fbaa35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
                   alt=""

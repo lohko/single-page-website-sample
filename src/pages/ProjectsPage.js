@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer,MDBRow, MDBCol, MDBCardBody, MDBView, MDBMask } from "mdbreact";
+import { MDBContainer,MDBRow, MDBCol, MDBView, MDBMask } from "mdbreact";
 import "../styles/ProjectPage.css";
 
 const ProjectsPage = () => {
